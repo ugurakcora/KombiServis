@@ -1,0 +1,8 @@
+Bu dosya, person1.jpg için bir placeholder'dır.
+Gerçek bir görsel dosyası ile değiştirilmelidir.
+
+Önerilen görsel içeriği:
+- Ekip lideri/yönetici portresi
+- Profesyonel iş kıyafeti içinde
+- Güven veren bir ifade
+- Boyut: en az 600x800 piksel 

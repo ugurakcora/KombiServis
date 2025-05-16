@@ -1,0 +1,8 @@
+Bu dosya, person2.jpg için bir placeholder'dır.
+Gerçek bir görsel dosyası ile değiştirilmelidir.
+
+Önerilen görsel içeriği:
+- Teknik uzman/teknisyen portresi
+- İş kıyafeti veya üniforma içinde
+- Profesyonel görünüm
+- Boyut: en az 600x800 piksel 
