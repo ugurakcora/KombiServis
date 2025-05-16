@@ -376,7 +376,7 @@ export default function AboutPage() {
               </Link>
               <Link
                 href="/hizmetler"
-                className="btn bg-white text-primary-700 border border-primary-600 hover:bg-gray-50"
+                className="btn bg-white text-primary-700 border border-primary-600 hover:bg-gray-50 px-4"
               >
                 Hizmetlerimizi İncele
               </Link>
