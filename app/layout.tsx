@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Metin Teknik - Ordu Kombi Servisi",
+  title: "Mert Teknik - Ordu Kombi Servisi",
   description:
     "Ordu bölgesinde profesyonel kombi bakım, onarım ve servis hizmetleri",
   keywords:
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   openGraph: {
-    title: "Metin Teknik - Ordu Kombi Servisi",
+    title: "Mert Teknik - Ordu Kombi Servisi",
     description:
       "Ordu bölgesinde profesyonel kombi bakım, onarım ve servis hizmetleri",
     url: "https://www.ordukombi.com",
-    siteName: "Metin Teknik - Ordu Kombi Servisi",
+    siteName: "Mert Teknik - Ordu Kombi Servisi",
     locale: "tr_TR",
     type: "website",
   },
