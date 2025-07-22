@@ -116,48 +116,62 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Hizmetlerimiz</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/hizmetler/kombi-bakimi"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Kombi Bakımı
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/hizmetler/kombi-tamiri"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Kombi Tamiri
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/hizmetler/kombi-montaji"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Kombi Montajı
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/hizmetler/petek-temizligi"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Petek Temizliği
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/hizmetler/acil-servis"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Acil Servis
-                </Link>
-              </li>
-            </ul>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+              <Link
+                href="/hizmetler/kombi-bakimi"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Kombi Bakımı
+              </Link>
+              <Link
+                href="/hizmetler/kombi-tamiri"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Kombi Tamiri
+              </Link>
+              <Link
+                href="/hizmetler/kombi-montaji"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Kombi Montajı
+              </Link>
+              <Link
+                href="/hizmetler/tesisat-ve-petek-temizligi"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Tesisat & Petek
+              </Link>
+              <Link
+                href="/hizmetler/panel-radyator-degisimi"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Panel Radyatör
+              </Link>
+              <Link
+                href="/hizmetler/radyator-vana-degisimi"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Radyatör Vana
+              </Link>
+              <Link
+                href="/hizmetler/kombi-yedek-parca"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Yedek Parça
+              </Link>
+              <Link
+                href="/hizmetler/tesisat-tamiri"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Tesisat Tamiri
+              </Link>
+              <Link
+                href="/hizmetler/acil-servis"
+                className="text-gray-400 hover:text-white transition-colors text-sm col-span-2 text-center bg-red-600 text-white px-3 py-1 rounded font-medium hover:bg-red-700"
+              >
+                🚨 Acil Servis
+              </Link>
+            </div>
           </div>
 
           {/* Contact */}

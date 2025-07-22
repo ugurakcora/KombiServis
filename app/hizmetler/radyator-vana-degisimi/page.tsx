@@ -288,8 +288,8 @@ const RadyatorVanaDegisimi = () => {
           </div>
         </section>
       </main>
-      <Footer />
       <ContactCTA />
+      <Footer />
     </>
   );
 };
