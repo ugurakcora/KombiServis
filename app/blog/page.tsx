@@ -10,7 +10,7 @@ import matter from "gray-matter";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Blog | Ordu Kombi Servisi",
+  title: "Blog | Mert Teknik",
   description:
     "Kombi bakımı, arızaları, enerji tasarrufu ve ısınma sistemleri hakkında faydalı bilgiler ve ipuçları.",
 };

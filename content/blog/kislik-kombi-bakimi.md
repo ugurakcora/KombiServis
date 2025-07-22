@@ -61,4 +61,4 @@ Kombi bakımının en ideal zamanı, ısıtma sezonuna girmeden önceki dönemdi
 
 Kış gelmeden kombi bakımı yaptırmak, hem enerji tasarrufu sağlar hem de olası arızaları önler. Düzenli bakım, kombinizin ömrünü uzatır ve güvenli çalışmasını sağlar. Soğuk kış günlerinde konforlu bir yaşam için, kombilerinizin bakımını ihmal etmeyin.
 
-Ordu Kombi olarak, uzman ekibimizle profesyonel kombi bakım hizmeti sunuyoruz. Kış gelmeden kombilerinizin bakımını yaptırmak için hemen bize ulaşın.
+Mert Teknik olarak, uzman ekibimizle profesyonel kombi bakım hizmeti sunuyoruz. Kış gelmeden kombilerinizin bakımını yaptırmak için hemen bize ulaşın.

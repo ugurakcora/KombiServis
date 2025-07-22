@@ -14,11 +14,11 @@ const Hero = () => {
           {/* Content */}
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Ordu&apos;nun Güvenilir Kombi Servis Hizmeti
+              Evinizi Sıcak Tutan Güçlü Çözümler
             </h1>
             <p className="text-lg md:text-xl opacity-90 max-w-xl">
               Profesyonel ekibimizle kombi bakım, onarım ve kurulum hizmetleri
-              sunuyoruz. 7/24 hızlı ve güvenilir servis garantisi.
+              sunuyoruz. 7/24 hızlı ve güvenilir servis garantisi. 1 Yıl Garanti
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/iletisim" className="btn btn-secondary">

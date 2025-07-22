@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kombi Montajı | Ordu Kombi Servisi",
+  title: "Kombi Montajı | Mert Teknik",
   description:
     "Profesyonel kombi montaj hizmeti. Tüm marka ve modellerde güvenli, hızlı ve garantili kombi kurulum hizmeti.",
 };
@@ -34,16 +34,16 @@ const KombiMontaji = () => {
                     Montaj Teklifi Alın
                   </Link>
                   <a
-                    href="tel:+905001234567"
+                    href="tel:+905530105040"
                     className="btn bg-white text-primary-700 hover:bg-gray-100 px-4"
                   >
                     Hemen Arayın
                   </a>
                 </div>
               </div>
-              <div className="md:w-1/2 relative">
+              <div className="w-full md:w-1/2 relative">
                 <div className="bg-white p-2 rounded-lg shadow-lg">
-                  <div className="relative h-64 md:h-80">
+                  <div className="relative h-80 md:h-80">
                     <Image
                       src="/images/services/kombi-montaj.jpg"
                       alt="Kombi montajı yapan teknisyen"
@@ -209,7 +209,7 @@ const KombiMontaji = () => {
                       </h3>
                       <p>
                         Montaj tamamlandığında, kombinin verimli kullanımı
-                        hakkında bilgi verilir ve garanti belgesi düzenlenir.
+                        hakkında bilgi verilir.
                       </p>
                     </div>
                   </div>
@@ -218,7 +218,7 @@ const KombiMontaji = () => {
 
               <div className="bg-primary-50 border-l-4 border-primary-500 p-6 mb-8">
                 <h3 className="text-xl font-semibold mb-3">
-                  Neden Ordu Kombi'yi Tercih Etmelisiniz?
+                  Neden Mert Teknik'i Tercih Etmelisiniz?
                 </h3>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Yetkilendirilmiş ve sertifikalı montaj ekibi</li>
@@ -242,8 +242,8 @@ const KombiMontaji = () => {
                   <Link href="/iletisim" className="btn btn-primary">
                     İletişim Formu
                   </Link>
-                  <a href="tel:+905001234567" className="btn btn-secondary">
-                    0500 123 45 67
+                  <a href="tel:+905530105040" className="btn btn-secondary">
+                    0553 010 50 40
                   </a>
                 </div>
               </div>

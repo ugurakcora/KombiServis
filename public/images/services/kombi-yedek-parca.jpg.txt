@@ -1,0 +1,7 @@
+Bu dosya kombi yedek parça ve aksesuar hizmeti için kullanılacak görsel dosyasının placeholder'ıdır.
+
+Gerçek proje için bu dosya yerine kombi-yedek-parca.jpg dosyası kullanılmalıdır.
+
+İçerik: Kombi yedek parçaları ve aksesuarları görseli
+Boyut: 1200x800 piksel önerilir
+Format: JPG 

@@ -27,7 +27,7 @@ const testimonials = [
     name: "Mehmet Demir",
     role: "İşyeri Sahibi",
     content:
-      "İşyerimizde yaşadığımız kombi sorununu çözmek için birçok servis denedik ama hiçbiri kalıcı çözüm sunamadı. Ordu Kombi ekibi geldi ve sorunu kökten halletti. Teşekkürler!",
+      "İşyerimizde yaşadığımız kombi sorununu çözmek için birçok servis denedik ama hiçbiri kalıcı çözüm sunamadı. Mert Teknik ekibi geldi ve sorunu kökten halletti. Teşekkürler!",
     avatar: "/images/testimonials/person3.jpg",
     rating: 5,
   },
@@ -36,7 +36,7 @@ const testimonials = [
     name: "Zeynep Aydın",
     role: "Ev Sahibi",
     content:
-      "Kombi değişimi için araştırma yaparken Ordu Kombi ile tanıştım. Hem fiyat hem de hizmet kalitesi açısından beklentilerimin üzerinde bir deneyim yaşadım.",
+      "Kombi değişimi için araştırma yaparken Mert Teknik ile tanıştım. Hem fiyat hem de hizmet kalitesi açısından beklentilerimin üzerinde bir deneyim yaşadım.",
     avatar: "/images/testimonials/person4.jpg",
     rating: 4,
   },
@@ -67,8 +67,8 @@ const Testimonials = () => {
             Müşterilerimiz Ne Diyor?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ordu ve çevresinde yüzlerce müşterimize hizmet verdik. İşte onların
-            deneyimleri.
+            Memnun müşterilerimizin deneyimlerini okuyun ve neden bizi tercih
+            ettiklerini öğrenin.
           </p>
         </div>
 

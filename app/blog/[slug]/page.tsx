@@ -42,7 +42,7 @@ export async function generateMetadata({
   const post = await getPostData(params.slug);
 
   return {
-    title: `${post.title} | Ordu Kombi Servisi Blog`,
+    title: `${post.title} | Mert Teknik Blog`,
     description: post.excerpt,
   };
 }
@@ -164,7 +164,7 @@ export default async function BlogPost({
                 <span className="text-gray-500">Paylaş:</span>
                 <a
                   href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                    `https://ordukombi.com/blog/${post.slug}`
+                    `https://www.kombiservisiordu.com/blog/${post.slug}`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -174,7 +174,7 @@ export default async function BlogPost({
                 </a>
                 <a
                   href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    `https://ordukombi.com/blog/${post.slug}`
+                    `https://www.kombiservisiordu.com/blog/${post.slug}`
                   )}&text=${encodeURIComponent(post.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"

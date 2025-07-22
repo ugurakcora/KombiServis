@@ -1,0 +1,7 @@
+Bu dosya radyatör vana değişimi hizmeti için kullanılacak görsel dosyasının placeholder'ıdır.
+
+Gerçek proje için bu dosya yerine radyator-vana.jpg dosyası kullanılmalıdır.
+
+İçerik: Radyatör vana montajı yapan teknisyen görseli
+Boyut: 1200x800 piksel önerilir
+Format: JPG 

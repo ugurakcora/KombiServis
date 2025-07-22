@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo and info */}
           <div>
             <Link href="/" className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-white">Ordu Kombi</span>
+              <span className="text-2xl font-bold text-white">Mert Teknik</span>
             </Link>
             <p className="text-gray-400 mb-4">
               Ordu ve çevresinde kombi bakım, onarım ve kurulum hizmetleri sunan
@@ -207,10 +207,10 @@ const Footer = () => {
                   />
                 </svg>
                 <a
-                  href="tel:+905001234567"
+                  href="tel:+905530105040"
                   className="text-gray-400 hover:text-white"
                 >
-                  0500 123 45 67
+                  0553 010 50 40
                 </a>
               </li>
               <li className="flex items-center">
@@ -229,10 +229,10 @@ const Footer = () => {
                   />
                 </svg>
                 <a
-                  href="mailto:info@ordukombi.com"
+                  href="mailto:info@kombiservisiordu.com"
                   className="text-gray-400 hover:text-white"
                 >
-                  info@ordukombi.com
+                  info@kombiservisiordu.com
                 </a>
               </li>
             </ul>
@@ -245,7 +245,7 @@ const Footer = () => {
         <div className="container">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {currentYear} Ordu Kombi. Tüm hakları saklıdır.
+              &copy; {currentYear} Mert Teknik. Tüm hakları saklıdır.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-4 text-sm">

@@ -5,11 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hizmetlerimiz - Ordu Kombi Servisi",
+  title: "Hizmetlerimiz - Mert Teknik",
   description:
-    "Ordu Kombi Servisi olarak sunduğumuz tüm kombi bakım, onarım ve servis hizmetleri.",
+    "Mert Teknik olarak sunduğumuz tüm kombi bakım, onarım, tesisat tamiri ve yedek parça hizmetleri.",
   keywords:
-    "kombi servisi, kombi bakımı, kombi tamiri, petek temizliği, kombi montajı, ordu kombi hizmetleri",
+    "kombi servisi, kombi bakımı, kombi tamiri, petek temizliği, kombi montajı, panel radyatör, tesisat tamiri, kombi yedek parça, mert teknik",
 };
 
 const services = [
@@ -25,7 +25,6 @@ const services = [
       "Kazan temizliği",
       "Brülör ayarı",
       "Gaz kaçak kontrolü",
-      "Baca gazı analizi",
       "Verimlilik testi",
     ],
   },
@@ -58,12 +57,11 @@ const services = [
       "Baca bağlantısı",
       "Test ve devreye alma",
       "Kullanım eğitimi",
-      "Garanti işlemleri",
     ],
   },
   {
-    id: "petek-temizligi",
-    title: "Petek Temizliği",
+    id: "tesisat-ve-petek-temizligi",
+    title: "Tesisat ve Petek Temizliği",
     description:
       "Isınma verimini artırmak ve enerji tasarrufu sağlamak için petek temizliği hizmetleri sunuyoruz. Özel ekipmanlarımızla peteklerinizi temizliyoruz.",
     image: "/images/services/petek-temizligi.jpg",
@@ -75,22 +73,6 @@ const services = [
       "Tortu temizleme",
       "Verim artırma",
       "Isı kaybını önleme",
-    ],
-  },
-  {
-    id: "kombi-degisimi",
-    title: "Kombi Değişimi",
-    description:
-      "Eski kombilerinizi yeni, daha verimli modellerle değiştirme hizmeti sunuyoruz. En uygun kombi seçimi için danışmanlık hizmeti veriyoruz.",
-    image: "/images/services/kombi-degisimi.jpg",
-    features: [
-      "Ücretsiz keşif",
-      "Kombi seçim danışmanlığı",
-      "Eski kombi sökümü",
-      "Yeni kombi montajı",
-      "Tesisat uyumluluk kontrolü",
-      "Test ve devreye alma",
-      "Garanti işlemleri",
     ],
   },
   {
@@ -109,6 +91,126 @@ const services = [
       "Acil parça temini",
     ],
   },
+  {
+    id: "panel-radyator-degisimi",
+    title: "Panel Radyatör Değişimi",
+    description:
+      "Eski ve verimsiz radyatörlerinizi modern panel radyatörlerle değiştirerek ısıtma verimliliğinizi artırın. Tüm marka ve modellerde profesyonel kurulum hizmeti.",
+    image: "/images/services/panel-radyator.jpg",
+    features: [
+      "Eski radyatör sökümü",
+      "Panel radyatör montajı",
+      "Boru bağlantıları",
+      "Sistem test edilmesi",
+      "Tüm marka ve modeller",
+      "Garantili hizmet",
+    ],
+  },
+  {
+    id: "radyator-vana-degisimi",
+    title: "Radyatör Vana Değişimi",
+    description:
+      "Arızalı radyatör vanalarınızı değiştirerek ısıtma sisteminizin kontrolünü iyileştirin. Termostatik, manuel ve otomatik vana seçenekleri.",
+    image: "/images/services/radyator-vana.jpg",
+    features: [
+      "Termostatik vana montajı",
+      "Manuel vana değişimi",
+      "Otomatik vana kurulumu",
+      "Enerji tasarrufu",
+      "Sıcaklık kontrolü",
+      "Uzun ömürlü çözümler",
+    ],
+  },
+  {
+    id: "kombi-yedek-parca",
+    title: "Kombi Yedek Parça ve Aksesuar",
+    description:
+      "Kombilerinizin uzun ömürlü çalışması için orijinal yedek parçalar ve kaliteli aksesuarlar. Tüm marka ve modeller için geniş ürün yelpazesi.",
+    image: "/images/services/kombi-yedek-parca.jpg",
+    features: [
+      "Orijinal yedek parçalar",
+      "Tüm marka ve modeller",
+      "Hızlı parça temini",
+      "Uygun fiyatlar",
+      "Garantili ürünler",
+      "Profesyonel montaj",
+    ],
+  },
+  {
+    id: "tesisat-tamiri",
+    title: "Tesisat Tamiri",
+    description:
+      "Su ve ısıtma tesisatı sorunlarınız için 7/24 profesyonel hizmet. Kaçak tamiri, tıkanıklık açma, boru değişimi ve tüm tesisat işleri.",
+    image: "/images/services/tesisat-tamiri.jpg",
+    features: [
+      "Su kaçağı tamiri",
+      "Tıkanıklık açma",
+      "Boru değişimi",
+      "Isıtma tesisatı",
+      "7/24 acil müdahale",
+      "Gizli kaçak tespiti",
+    ],
+  },
+  {
+    id: "panel-radyator-degisimi",
+    title: "Panel Radyatör Değişimi",
+    description:
+      "Eski ve verimsiz radyatörlerinizi modern panel radyatörlerle değiştirerek ısıtma verimliliğinizi artırın. Tüm marka ve modellerde profesyonel kurulum hizmeti.",
+    image: "/images/services/panel-radyator.jpg",
+    features: [
+      "Eski radyatör sökümü",
+      "Panel radyatör montajı",
+      "Boru bağlantıları",
+      "Sistem test edilmesi",
+      "Tüm marka ve modeller",
+      "Garantili hizmet",
+    ],
+  },
+  {
+    id: "radyator-vana-degisimi",
+    title: "Radyatör Vana Değişimi",
+    description:
+      "Arızalı radyatör vanalarınızı değiştirerek ısıtma sisteminizin kontrolünü iyileştirin. Termostatik, manuel ve otomatik vana seçenekleri.",
+    image: "/images/services/radyator-vana.jpg",
+    features: [
+      "Termostatik vana montajı",
+      "Manuel vana değişimi",
+      "Otomatik vana kurulumu",
+      "Enerji tasarrufu",
+      "Sıcaklık kontrolü",
+      "Uzun ömürlü çözümler",
+    ],
+  },
+  {
+    id: "kombi-yedek-parca",
+    title: "Kombi Yedek Parça ve Aksesuar",
+    description:
+      "Kombilerinizin uzun ömürlü çalışması için orijinal yedek parçalar ve kaliteli aksesuarlar. Tüm marka ve modeller için geniş ürün yelpazesi.",
+    image: "/images/services/kombi-yedek-parca.jpg",
+    features: [
+      "Orijinal yedek parçalar",
+      "Tüm marka ve modeller",
+      "Hızlı parça temini",
+      "Uygun fiyatlar",
+      "Garantili ürünler",
+      "Profesyonel montaj",
+    ],
+  },
+  {
+    id: "tesisat-tamiri",
+    title: "Tesisat Tamiri",
+    description:
+      "Su ve ısıtma tesisatı sorunlarınız için 7/24 profesyonel hizmet. Kaçak tamiri, tıkanıklık açma, boru değişimi ve tüm tesisat işleri.",
+    image: "/images/services/tesisat-tamiri.jpg",
+    features: [
+      "Su kaçağı tamiri",
+      "Tıkanıklık açma",
+      "Boru değişimi",
+      "Isıtma tesisatı",
+      "7/24 acil müdahale",
+      "Gizli kaçak tespiti",
+    ],
+  },
 ];
 
 export default function ServicesPage() {
@@ -122,9 +224,9 @@ export default function ServicesPage() {
             Hizmetlerimiz
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
-            Ordu ve çevresinde kombi bakım, onarım ve montaj hizmetleri
-            sunuyoruz. Profesyonel ekibimizle tüm kombi markalarına hizmet
-            veriyoruz.
+            Türkiye genelinde kombi bakım, onarım, montaj ve tesisat hizmetleri
+            sunuyoruz. Profesyonel ekibimizle tüm kombi markalarına ve tesisat
+            işlerinize hizmet veriyoruz.
           </p>
 
           <div className="space-y-16">

@@ -55,4 +55,4 @@ Kombinin su basıncının ideal aralıkta (genellikle 1-1.5 bar) olması, veriml
 
 Enerji tasarrufu, sadece faturalarınızı düşürmekle kalmaz, aynı zamanda çevreye de katkıda bulunur. Bu basit ipuçlarını uygulayarak, kombilerinizden maksimum verim alabilir ve ısınma maliyetlerinizi önemli ölçüde azaltabilirsiniz.
 
-Ordu Kombi olarak, enerji verimli kombi sistemleri ve profesyonel bakım hizmetleri sunuyoruz. Daha fazla bilgi ve danışmanlık için bizimle iletişime geçebilirsiniz.
+Mert Teknik olarak, enerji verimli kombi sistemleri ve profesyonel bakım hizmetleri sunuyoruz. Daha fazla bilgi ve danışmanlık için bizimle iletişime geçebilirsiniz.

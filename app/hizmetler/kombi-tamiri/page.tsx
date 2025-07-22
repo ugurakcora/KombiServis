@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kombi Tamiri | Ordu Kombi Servisi",
+  title: "Kombi Tamiri | Mert Teknik",
   description:
     "Tüm marka ve model kombilerde profesyonel tamir hizmeti. Hızlı, güvenilir ve garantili kombi tamir servisi.",
 };
@@ -25,7 +25,7 @@ const KombiTamiri = () => {
                   Profesyonel Kombi Tamir Hizmeti
                 </h1>
                 <p className="text-lg mb-6">
-                  Kombileriniz arızalandığında, Ordu Kombi'nin uzman
+                  Kombileriniz arızalandığında, Mert Teknik'in uzman
                   teknisyenleri yanınızda. Tüm marka ve modellerde hızlı,
                   güvenilir ve garantili tamir hizmeti sunuyoruz.
                 </p>
@@ -34,16 +34,16 @@ const KombiTamiri = () => {
                     Servis Talebi Oluşturun
                   </Link>
                   <a
-                    href="tel:+905001234567"
+                    href="tel:+905530105040"
                     className="btn bg-white text-primary-700 hover:bg-gray-100 px-4"
                   >
                     Acil Servis Hattı
                   </a>
                 </div>
               </div>
-              <div className="md:w-1/2 relative">
+              <div className="w-full md:w-1/2 relative">
                 <div className="bg-white p-2 rounded-lg shadow-lg">
-                  <div className="relative h-64 md:h-80">
+                  <div className="relative h-80 md:h-80">
                     <Image
                       src="/images/services/kombi-tamiri.jpg"
                       alt="Kombi tamiri yapan teknisyen"
@@ -77,10 +77,10 @@ const KombiTamiri = () => {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Su basıncı düşmesi</li>
+                    <li>Su basıncı düşmesi veya yükselmesi</li>
                     <li>Kombinin ateşleme yapmaması</li>
                     <li>Sıcak su gelmemesi</li>
-                    <li>Isıtma yapmama sorunu</li>
+                    <li>Peteklerde zayıf ısınma</li>
                     <li>Gürültülü çalışma</li>
                   </ul>
                   <ul className="list-disc pl-6 space-y-2">
@@ -186,7 +186,7 @@ const KombiTamiri = () => {
 
               <div className="bg-primary-50 border-l-4 border-primary-500 p-6 mb-8">
                 <h3 className="text-xl font-semibold mb-3">
-                  Neden Ordu Kombi'yi Tercih Etmelisiniz?
+                  Neden Mert Teknik'i Tercih Etmelisiniz?
                 </h3>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>20+ yıllık sektör deneyimi</li>
@@ -252,8 +252,8 @@ const KombiTamiri = () => {
                   <Link href="/iletisim" className="btn btn-primary">
                     İletişim Formu
                   </Link>
-                  <a href="tel:+905001234567" className="btn btn-secondary">
-                    0500 123 45 67
+                  <a href="tel:+905530105040" className="btn btn-secondary">
+                    0553 010 50 40
                   </a>
                 </div>
               </div>

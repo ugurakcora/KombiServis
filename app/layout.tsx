@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mert Teknik - Ordu Kombi Servisi",
-  description:
-    "Ordu bölgesinde profesyonel kombi bakım, onarım ve servis hizmetleri",
+  title: "Mert Teknik - Kombi ve Tesisat Teknik Servisi",
+  description: "Profesyonel kombi bakım, onarım ve servis hizmetleri",
   keywords:
-    "kombi servisi, kombi bakımı, kombi tamiri, Ordu kombi servisi, kombi arıza",
+    "kombi servisi, kombi bakımı, kombi tamiri, Mert Teknik kombi servisi, kombi arıza",
   robots: "index, follow",
   icons: {
     icon: [
@@ -24,11 +23,10 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   openGraph: {
-    title: "Mert Teknik - Ordu Kombi Servisi",
-    description:
-      "Ordu bölgesinde profesyonel kombi bakım, onarım ve servis hizmetleri",
-    url: "https://www.ordukombi.com",
-    siteName: "Mert Teknik - Ordu Kombi Servisi",
+    title: "Mert Teknik - Kombi ve Tesisat Teknik Servisi",
+    description: "Profesyonel kombi bakım, onarım ve servis hizmetleri",
+    url: "https://www.kombiservisiordu.com",
+    siteName: "Mert Teknik - Kombi ve Tesisat Teknik Servisi",
     locale: "tr_TR",
     type: "website",
   },

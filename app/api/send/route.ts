@@ -17,8 +17,8 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Ordu Kombi <onay@ordukombi.com>", // Doğrulanmış domain kullanılmalı
-      to: ["info@ordukombi.com"], // Alıcı e-posta adresi
+      from: "Mert Teknik <onay@kombiservisiordu.com>", // Doğrulanmış domain kullanılmalı
+      to: ["info@kombiservisiordu.com"], // Alıcı e-posta adresi
       subject: `İletişim Formu: ${subject}`,
       replyTo: email,
       text: `

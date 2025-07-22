@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Acil Kombi Servisi | Ordu Kombi Servisi",
+  title: "Acil Kombi Servisi | Mert Teknik",
   description:
     "7/24 acil kombi servis hizmeti. Hızlı müdahale, güvenilir çözüm ve uygun fiyatlarla acil kombi sorunlarınız için yanınızdayız.",
 };
@@ -30,7 +30,7 @@ const AcilServis = () => {
                   bırakmıyoruz.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+905001234567" className="btn btn-secondary">
+                  <a href="tel:+905530105040" className="btn btn-secondary">
                     Hemen Arayın
                   </a>
                   <Link
@@ -41,9 +41,9 @@ const AcilServis = () => {
                   </Link>
                 </div>
               </div>
-              <div className="md:w-1/2 relative">
+              <div className="w-full md:w-1/2 relative">
                 <div className="bg-white p-2 rounded-lg shadow-lg">
-                  <div className="relative h-64 md:h-80">
+                  <div className="relative h-80 md:h-80">
                     <Image
                       src="/images/services/acil-servis.jpg"
                       alt="Acil kombi servisi teknisyeni"
@@ -65,7 +65,7 @@ const AcilServis = () => {
                 Acil Servis Hizmetimiz
               </h2>
               <p className="mb-6">
-                Ordu Kombi olarak, kombilerinizle ilgili acil durumlarda 7/24
+                Mert Teknik olarak, kombilerinizle ilgili acil durumlarda 7/24
                 hizmet veriyoruz. Deneyimli teknisyenlerimiz, en kısa sürede
                 adresinize ulaşarak sorununuzu çözüyor.
               </p>
@@ -260,10 +260,10 @@ const AcilServis = () => {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <a
-                    href="tel:+905001234567"
+                    href="tel:+905530105040"
                     className="btn btn-primary text-xl"
                   >
-                    0500 123 45 67
+                    0553 010 50 40
                   </a>
                   <Link href="/iletisim" className="btn btn-secondary">
                     İletişim Formu

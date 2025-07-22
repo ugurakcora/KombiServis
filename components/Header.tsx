@@ -13,14 +13,19 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto py-4">
+      <div className="container mx-auto py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-primary-600">
-                Ordu Kombi
-              </span>
+              <Image
+                src="/images/logo-saydam.png"
+                alt="Mert Teknik - Kombi ve Tesisat Teknik Servisi"
+                width={200}
+                height={120}
+                className="h-16 w-auto"
+                priority
+              />
             </Link>
           </div>
 
@@ -52,8 +57,22 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* Contact Button */}
-          <div className="hidden md:block">
+          {/* Phone Numbers and Contact Button */}
+          <div className="hidden md:flex items-center space-x-4">
+            <div className="flex flex-col space-y-1">
+              <a
+                href="tel:+905530105040"
+                className="text-red-600 font-semibold text-sm hover:text-red-700"
+              >
+                0553 010 50 40
+              </a>
+              <a
+                href="tel:+905079042085"
+                className="text-red-600 font-semibold text-sm hover:text-red-700"
+              >
+                0507 904 20 85
+              </a>
+            </div>
             <Link href="/iletisim" className="btn btn-primary">
               Hemen Ara
             </Link>
@@ -120,6 +139,21 @@ const Header = () => {
               >
                 İletişim
               </Link>
+              {/* Mobile Phone Numbers */}
+              <div className="flex flex-col space-y-2 px-2">
+                <a
+                  href="tel:+905530105040"
+                  className="text-red-600 font-semibold text-sm hover:text-red-700"
+                >
+                  0553 010 50 40
+                </a>
+                <a
+                  href="tel:+905079042085"
+                  className="text-red-600 font-semibold text-sm hover:text-red-700"
+                >
+                  0507 904 20 85
+                </a>
+              </div>
               <Link
                 href="/iletisim"
                 className="btn btn-primary w-full text-center"

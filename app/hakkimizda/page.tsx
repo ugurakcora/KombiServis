@@ -5,11 +5,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda - Ordu Kombi Servisi",
+  title: "Hakkımızda - Mert Teknik",
   description:
-    "Ordu Kombi Servisi olarak 10 yılı aşkın deneyimimizle kombi bakım, onarım ve servis hizmetleri sunuyoruz.",
+    "Mert Teknik olarak 25 yılı aşkın deneyimimizle kombi bakım, onarım ve servis hizmetleri sunuyoruz.",
   keywords:
-    "ordu kombi hakkında, kombi servisi ordu, kombi bakım firması, kombi servis ekibi",
+    "mert teknik hakkında, kombi servisi, kombi bakım firması, kombi servis ekibi",
 };
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/images/about/company.jpg"
-                alt="Ordu Kombi Servisi Ekibi"
+                alt="Mert Teknik Ekibi"
                 fill
                 className="object-cover"
               />
@@ -36,13 +36,13 @@ export default function AboutPage() {
 
             <div>
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                Ordu Kombi Servisi
+                Mert Teknik
               </h2>
               <p className="text-gray-600 mb-4">
-                2012 yılında kurulan firmamız, Ordu ve çevresinde kombi bakım,
-                onarım ve montaj hizmetleri sunmaktadır. 10 yılı aşkın
-                deneyimimizle, müşteri memnuniyetini ön planda tutarak kaliteli
-                hizmet vermeye devam ediyoruz.
+                2000 yılında İstanbul'da kurulan firmamız, Türkiye genelinde
+                kombi bakım, onarım ve montaj hizmetleri sunmaktadır. 25 yılı
+                aşkın deneyimimizle, müşteri memnuniyetini ön planda tutarak
+                kaliteli hizmet vermeye devam ediyoruz.
               </p>
               <p className="text-gray-600 mb-4">
                 Alanında uzman teknisyenlerimiz, sürekli eğitimlerle bilgi ve
@@ -117,80 +117,12 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold">Vizyonumuz</h2>
               </div>
               <p className="text-gray-600">
-                Ordu ve çevresinde kombi servis sektöründe lider firma olmak,
+                Türkiye genelinde kombi servis sektöründe lider firma olmak,
                 yenilikçi çözümlerle sektöre yön vermek ve müşterilerimizin ilk
                 tercihi olmaya devam etmek. Çevreye duyarlı, enerji tasarrufuna
                 önem veren ve sürdürülebilir hizmet anlayışıyla bölgesel pazarda
                 büyümeyi hedefliyoruz.
               </p>
-            </div>
-          </div>
-
-          {/* Team */}
-          <div className="mb-16">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-              Ekibimiz
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative h-[250px]">
-                  <Image
-                    src="/images/team/person1.jpg"
-                    alt="Ahmet Yılmaz - Firma Sahibi"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Ahmet Yılmaz</h3>
-                  <p className="text-gray-500 mb-4">Firma Sahibi</p>
-                  <p className="text-gray-600">
-                    20 yıllık sektör deneyimi ile firmamızın kurucusu ve
-                    yöneticisidir. Kombi sistemleri konusunda uzman olan Ahmet
-                    Bey, müşteri memnuniyetini ön planda tutmaktadır.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative h-[250px]">
-                  <Image
-                    src="/images/team/person2.jpg"
-                    alt="Mehmet Demir - Teknik Müdür"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Mehmet Demir</h3>
-                  <p className="text-gray-500 mb-4">Teknik Müdür</p>
-                  <p className="text-gray-600">
-                    15 yıllık tecrübesi ile teknik ekibimizin başında yer
-                    almaktadır. Tüm kombi marka ve modellerine hakimiyeti ile
-                    zorlu arızaların çözümünde uzmandır.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative h-[250px]">
-                  <Image
-                    src="/images/team/person3.jpg"
-                    alt="Ali Kaya - Servis Teknisyeni"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Ali Kaya</h3>
-                  <p className="text-gray-500 mb-4">Servis Teknisyeni</p>
-                  <p className="text-gray-600">
-                    10 yıllık deneyime sahip servis teknisyenimiz, kombi bakım
-                    ve onarım konusunda uzmanlaşmıştır. Müşteri memnuniyeti
-                    odaklı çalışma prensibi ile hizmet vermektedir.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -222,7 +154,7 @@ export default function AboutPage() {
                     Güvenilir Hizmet
                   </h3>
                   <p className="text-gray-600">
-                    10 yılı aşkın deneyimimizle güvenilir ve kaliteli hizmet
+                    25 yılı aşkın deneyimimizle güvenilir ve kaliteli hizmet
                     sunuyoruz.
                   </p>
                 </div>

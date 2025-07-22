@@ -1,0 +1,7 @@
+Bu dosya panel radyatör değişimi hizmeti için kullanılacak görsel dosyasının placeholder'ıdır.
+
+Gerçek proje için bu dosya yerine panel-radyator.jpg dosyası kullanılmalıdır.
+
+İçerik: Panel radyatör montajı yapan teknisyen görseli
+Boyut: 1200x800 piksel önerilir
+Format: JPG 

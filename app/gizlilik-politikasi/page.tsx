@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gizlilik Politikası | Ordu Kombi Servisi",
+  title: "Gizlilik Politikası | Mert Teknik",
   description:
-    "Ordu Kombi Servisi gizlilik politikası ve kişisel verilerin korunması hakkında bilgiler",
+    "Mert Teknik gizlilik politikası ve kişisel verilerin korunması hakkında bilgiler",
 };
 
 const GizlilikPolitikasi = () => {
@@ -24,8 +24,8 @@ const GizlilikPolitikasi = () => {
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">1. Giriş</h2>
             <p>
-              Ordu Kombi Servisi olarak kişisel verilerinizin gizliliği bizim
-              için önemlidir. Bu Gizlilik Politikası, web sitemizi ziyaret
+              Mert Teknik olarak kişisel verilerinizin gizliliği bizim için
+              önemlidir. Bu Gizlilik Politikası, web sitemizi ziyaret
               ettiğinizde veya hizmetlerimizi kullandığınızda kişisel
               verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu
               açıklamaktadır.
@@ -115,11 +115,12 @@ const GizlilikPolitikasi = () => {
               lütfen aşağıdaki iletişim bilgilerinden bize ulaşın:
             </p>
             <p className="mb-6">
-              E-posta: info@ordukombi.com
+              E-posta: info@kombiservisiordu.com
               <br />
-              Telefon: 0452 123 45 67
+              Telefon: 0553 010 50 40
               <br />
-              Adres: Atatürk Bulvarı No: 123, Ordu Merkez
+              Adres: Bahçelievler Mahallesi Erol Ataşan Bulvarı, 293. Sk. No:3,
+              52200 Altınordu/Ordu
             </p>
           </div>
         </div>

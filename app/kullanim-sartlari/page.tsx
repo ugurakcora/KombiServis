@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kullanım Şartları | Ordu Kombi Servisi",
+  title: "Kullanım Şartları | Mert Teknik",
   description:
-    "Ordu Kombi Servisi web sitesi ve hizmetleri kullanım şartları ve koşulları",
+    "Mert Teknik web sitesi ve hizmetleri kullanım şartları ve koşulları",
 };
 
 const KullanimSartlari = () => {
@@ -26,8 +26,8 @@ const KullanimSartlari = () => {
               1. Kabul Edilen Şartlar
             </h2>
             <p>
-              Ordu Kombi Servisi web sitesini kullanarak, bu kullanım şartlarını
-              kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen web
+              Mert Teknik web sitesini kullanarak, bu kullanım şartlarını kabul
+              etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen web
               sitemizi kullanmayın.
             </p>
 
@@ -35,9 +35,9 @@ const KullanimSartlari = () => {
               2. Hizmetlerimiz
             </h2>
             <p>
-              Ordu Kombi Servisi olarak, kombi bakım, onarım, montaj ve petek
-              temizliği hizmetleri sunmaktayız. Web sitemiz, bu hizmetler
-              hakkında bilgi vermek ve müşterilerimizle iletişim kurmak amacıyla
+              Mert Teknik olarak, kombi bakım, onarım, montaj ve petek temizliği
+              hizmetleri sunmaktayız. Web sitemiz, bu hizmetler hakkında bilgi
+              vermek ve müşterilerimizle iletişim kurmak amacıyla
               tasarlanmıştır.
             </p>
 
@@ -61,9 +61,9 @@ const KullanimSartlari = () => {
             </h2>
             <p>
               Web sitemizdeki tüm içerikler (metinler, görseller, logolar,
-              tasarımlar vb.) Ordu Kombi Servisi'ne aittir veya lisanslı
-              kullanım hakkına sahiptir. Bu içeriklerin izinsiz kullanımı,
-              kopyalanması veya dağıtılması yasaktır.
+              tasarımlar vb.) Mert Teknik'e aittir veya lisanslı kullanım
+              hakkına sahiptir. Bu içeriklerin izinsiz kullanımı, kopyalanması
+              veya dağıtılması yasaktır.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -76,8 +76,8 @@ const KullanimSartlari = () => {
               bir açık veya zımni garanti vermiyoruz.
             </p>
             <p>
-              Ordu Kombi Servisi, web sitesinin kullanımından kaynaklanan
-              doğrudan veya dolaylı zararlardan sorumlu tutulamaz.
+              Mert Teknik, web sitesinin kullanımından kaynaklanan doğrudan veya
+              dolaylı zararlardan sorumlu tutulamaz.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -132,11 +132,12 @@ const KullanimSartlari = () => {
               lütfen aşağıdaki iletişim bilgilerinden bize ulaşın:
             </p>
             <p className="mb-6">
-              E-posta: info@ordukombi.com
+              E-posta: info@kombiservisiordu.com
               <br />
-              Telefon: 0452 123 45 67
+              Telefon: 0553 010 50 40
               <br />
-              Adres: Atatürk Bulvarı No: 123, Ordu Merkez
+              Adres: Bahçelievler Mahallesi Erol Ataşan Bulvarı, 293. Sk. No:3,
+              52200 Altınordu/Ordu
             </p>
           </div>
         </div>

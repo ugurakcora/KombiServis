@@ -112,7 +112,7 @@ const WhyChooseUs = () => {
               Neden Bizi Seçmelisiniz?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Ordu ve çevresinde 10 yılı aşkın tecrübemizle, tüm kombi marka ve
+              Ordu ve çevresinde 25 yılı aşkın tecrübemizle, tüm kombi marka ve
               modellerine profesyonel servis hizmeti sunuyoruz. Müşteri
               memnuniyeti odaklı çalışma prensibiyle, kaliteli ve güvenilir
               hizmet garantisi veriyoruz.
