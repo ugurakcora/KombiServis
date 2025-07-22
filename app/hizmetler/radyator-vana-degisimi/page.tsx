@@ -49,9 +49,10 @@ const RadyatorVanaDegisimi = () => {
                 <div className="bg-white p-2 rounded-lg shadow-lg">
                   <div className="relative h-80 md:h-80">
                     <Image
-                      src="/images/services/radyator-vana.jpg"
-                      alt="Radyatör vana değişimi yapan teknisyen"
+                      src="/images/services/radyator-vana.png"
+                      alt="Radyatör vana değişimi"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

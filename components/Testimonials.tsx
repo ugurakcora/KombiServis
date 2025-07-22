@@ -81,6 +81,7 @@ const Testimonials = () => {
                   src={testimonials[activeIndex].avatar}
                   alt={testimonials[activeIndex].name}
                   fill
+                  sizes="64px"
                   className="object-cover"
                 />
               </div>
@@ -118,7 +119,7 @@ const Testimonials = () => {
           {/* Navigation buttons */}
           <button
             onClick={prevTestimonial}
-            className="absolute top-1/2 -left-4 md:-left-12 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none"
+            className="absolute top-1/2 -left-4 md:-left-12 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 focus:outline-none z-40"
             aria-label="Önceki yorum"
           >
             <svg
@@ -138,7 +139,7 @@ const Testimonials = () => {
           </button>
           <button
             onClick={nextTestimonial}
-            className="absolute top-1/2 -right-4 md:-right-12 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none"
+            className="absolute top-1/2 -right-4 md:-right-12 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 focus:outline-none z-40"
             aria-label="Sonraki yorum"
           >
             <svg
@@ -163,8 +164,10 @@ const Testimonials = () => {
               <button
                 key={index}
                 onClick={() => goToTestimonial(index)}
-                className={`w-3 h-3 rounded-full ${
-                  index === activeIndex ? "bg-primary-600" : "bg-gray-300"
+                className={`w-4 h-4 rounded-full transition-colors hover:scale-110 ${
+                  index === activeIndex
+                    ? "bg-primary-600"
+                    : "bg-gray-300 hover:bg-primary-300"
                 }`}
                 aria-label={`Yorum ${index + 1}`}
               />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import CookieConsent from "../components/CookieConsent";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Mert Teknik - Kombi ve Tesisat Teknik Servisi",
@@ -60,6 +61,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-gray-50">
         {children}
         <CookieConsent />
+        <WhatsAppButton />
       </body>
     </html>
   );

@@ -47,8 +47,9 @@ const PetekTemizligi = () => {
                   <div className="relative h-80 md:h-80">
                     <Image
                       src="/images/services/petek-temizligi.jpg"
-                      alt="Petek temizliği yapan teknisyen"
+                      alt="Tesisat ve petek temizliği"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

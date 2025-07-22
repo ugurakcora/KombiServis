@@ -48,6 +48,7 @@ const KombiDegisimi = () => {
                       src="/images/services/kombi-degisimi.jpg"
                       alt="Kombi değişimi yapan teknisyen"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

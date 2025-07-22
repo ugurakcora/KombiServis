@@ -45,9 +45,10 @@ const AcilServis = () => {
                 <div className="bg-white p-2 rounded-lg shadow-lg">
                   <div className="relative h-80 md:h-80">
                     <Image
-                      src="/images/services/acil-servis.jpg"
+                      src="/images/services/acil-servis.png"
                       alt="Acil kombi servisi teknisyeni"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

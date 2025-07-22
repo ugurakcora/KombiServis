@@ -89,6 +89,7 @@ const Hero = () => {
               src="/images/hero-technician.jpg"
               alt="Kombi servisi teknisyeni çalışırken"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
               className="object-cover rounded-lg"
               priority
             />

@@ -93,44 +93,42 @@ export default function CookieConsent() {
   if (!showBanner) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-end justify-center p-4">
-      <div className="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-end justify-center p-2 sm:p-4">
+      <div className="bg-white rounded-lg shadow-2xl w-full max-w-md sm:max-w-2xl max-h-[95vh] sm:max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-lg">
-          <h3 className="text-xl font-bold flex items-center">
-            🍪 Çerez (Cookie) Politikası
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-3 sm:p-6 rounded-t-lg">
+          <h3 className="text-lg sm:text-xl font-bold flex items-center">
+            🍪 <span className="ml-2">Çerez Politikası</span>
           </h3>
         </div>
 
         {/* Content */}
-        <div className="p-6">
-          <p className="text-gray-700 mb-4">
-            Web sitemizde deneyiminizi geliştirmek ve hizmetlerimizi analiz
-            etmek için çerezler kullanıyoruz. Hangi çerezlerin kullanılmasına
-            izin vermek istediğinizi seçebilirsiniz.
+        <div className="p-3 sm:p-6">
+          <p className="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+            Deneyiminizi geliştirmek için çerezler kullanıyoruz. Tercihlerinizi
+            seçin.
           </p>
 
           {/* Cookie Types */}
-          <div className="space-y-4 mb-6">
-            <div className="flex items-start space-x-3">
+          <div className="space-y-3 sm:space-y-4 mb-4 sm:mb-6">
+            <div className="flex items-start space-x-2 sm:space-x-3">
               <input
                 type="checkbox"
                 checked={true}
                 disabled
-                className="mt-1 rounded border-gray-300"
+                className="mt-1 rounded border-gray-300 text-sm"
               />
               <div>
-                <h4 className="font-semibold text-gray-900">
+                <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
                   Gerekli Çerezler
                 </h4>
-                <p className="text-sm text-gray-600">
-                  Sitenin çalışması için zorunlu çerezler. İletişim formu ve
-                  güvenlik için gereklidir.
+                <p className="text-xs sm:text-sm text-gray-600">
+                  Sitenin çalışması için zorunlu.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start space-x-3">
+            <div className="flex items-start space-x-2 sm:space-x-3">
               <input
                 type="checkbox"
                 checked={preferences.analytics}
@@ -143,57 +141,53 @@ export default function CookieConsent() {
                 className="mt-1 rounded border-gray-300"
               />
               <div>
-                <h4 className="font-semibold text-gray-900">
-                  Analiz Çerezleri (Google Analytics)
+                <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
+                  Analiz Çerezleri
                 </h4>
-                <p className="text-sm text-gray-600">
-                  Ziyaretçi sayıları, hangi sayfaların görüntülendiği ve cihaz
-                  bilgileri için kullanılır.
-                  <span className="font-medium">
-                    {" "}
-                    Bu sayede size daha iyi hizmet verebiliriz.
-                  </span>
+                <p className="text-xs sm:text-sm text-gray-600">
+                  Site istatistikleri ve performans analizi için.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="text-xs text-gray-500 mb-6 p-3 bg-gray-50 rounded">
-            <strong>KVKK Uyarısı:</strong> Bu çerezler kişisel verilerinizi
-            toplar. Detaylar için{" "}
+          <div className="text-xs text-gray-500 mb-4 sm:mb-6 p-2 sm:p-3 bg-gray-50 rounded">
+            <strong>KVKK:</strong> Detaylar için{" "}
             <a
               href="/gizlilik-politikasi"
               className="text-blue-600 hover:underline"
             >
-              Gizlilik Politikamızı
+              politikamızı
             </a>{" "}
-            inceleyebilirsiniz.
+            inceleyin.
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col gap-2 sm:gap-3">
             <button
               onClick={acceptAll}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold transition-colors text-sm sm:text-base"
             >
               ✅ Tümünü Kabul Et
             </button>
-            <button
-              onClick={acceptCustom}
-              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-            >
-              💾 Seçimimi Kaydet
-            </button>
-            <button
-              onClick={acceptNecessaryOnly}
-              className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-            >
-              🚫 Sadece Gerekli
-            </button>
+            <div className="flex gap-2 sm:gap-3">
+              <button
+                onClick={acceptCustom}
+                className="bg-green-600 hover:bg-green-700 text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg font-semibold transition-colors text-xs sm:text-sm flex-1"
+              >
+                💾 Kaydet
+              </button>
+              <button
+                onClick={acceptNecessaryOnly}
+                className="bg-gray-600 hover:bg-gray-700 text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg font-semibold transition-colors text-xs sm:text-sm flex-1"
+              >
+                🚫 Reddet
+              </button>
+            </div>
           </div>
 
-          <p className="text-xs text-gray-500 mt-4 text-center">
-            İstediğiniz zaman ayarları değiştirebilirsiniz.
+          <p className="text-xs text-gray-500 mt-3 sm:mt-4 text-center">
+            Ayarlar değiştirilebilir.
           </p>
         </div>
       </div>

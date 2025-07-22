@@ -48,9 +48,10 @@ const PanelRadyatorDegisimi = () => {
                 <div className="bg-white p-2 rounded-lg shadow-lg">
                   <div className="relative h-80 md:h-80">
                     <Image
-                      src="/images/services/panel-radyator.jpg"
-                      alt="Panel radyatör değişimi yapan teknisyen"
+                      src="/images/services/panel-radyator.png"
+                      alt="Panel radyatör değişimi"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

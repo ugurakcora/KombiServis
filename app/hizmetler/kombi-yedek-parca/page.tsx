@@ -46,9 +46,10 @@ const KombiYedekParca = () => {
                 <div className="bg-white p-2 rounded-lg shadow-lg">
                   <div className="relative h-80 md:h-80">
                     <Image
-                      src="/images/services/kombi-yedek-parca.jpg"
-                      alt="Kombi yedek parça ve aksesuar hizmeti"
+                      src="/images/services/kombi-yedek-parca.png"
+                      alt="Kombi yedek parçaları"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

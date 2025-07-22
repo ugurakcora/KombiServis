@@ -49,7 +49,7 @@ const services = [
     title: "Kombi Montajı",
     description:
       "Yeni kombilerinizin profesyonel kurulum ve montaj hizmetlerini sağlıyoruz. Doğru montaj ile kombilerinizin verimli çalışmasını sağlıyoruz.",
-    image: "/images/services/kombi-montaji.jpg",
+    image: "/images/services/kombi-montaj.png",
     features: [
       "Eski kombi sökümü",
       "Yeni kombi montajı",
@@ -80,7 +80,7 @@ const services = [
     title: "Acil Servis",
     description:
       "7/24 acil kombi arıza ve tamir hizmetleri sunuyoruz. Soğuk kış günlerinde sizi mağdur etmemek için hızlı müdahale ediyoruz.",
-    image: "/images/services/acil-servis.jpg",
+    image: "/images/services/acil-servis.png",
     features: [
       "7/24 hizmet",
       "Aynı gün müdahale",
@@ -96,7 +96,7 @@ const services = [
     title: "Panel Radyatör Değişimi",
     description:
       "Eski ve verimsiz radyatörlerinizi modern panel radyatörlerle değiştirerek ısıtma verimliliğinizi artırın. Tüm marka ve modellerde profesyonel kurulum hizmeti.",
-    image: "/images/services/panel-radyator.jpg",
+    image: "/images/services/panel-radyator.png",
     features: [
       "Eski radyatör sökümü",
       "Panel radyatör montajı",
@@ -111,7 +111,7 @@ const services = [
     title: "Radyatör Vana Değişimi",
     description:
       "Arızalı radyatör vanalarınızı değiştirerek ısıtma sisteminizin kontrolünü iyileştirin. Termostatik, manuel ve otomatik vana seçenekleri.",
-    image: "/images/services/radyator-vana.jpg",
+    image: "/images/services/radyator-vana.png",
     features: [
       "Termostatik vana montajı",
       "Manuel vana değişimi",
@@ -126,7 +126,7 @@ const services = [
     title: "Kombi Yedek Parça ve Aksesuar",
     description:
       "Kombilerinizin uzun ömürlü çalışması için orijinal yedek parçalar ve kaliteli aksesuarlar. Tüm marka ve modeller için geniş ürün yelpazesi.",
-    image: "/images/services/kombi-yedek-parca.jpg",
+    image: "/images/services/kombi-yedek-parca.png",
     features: [
       "Orijinal yedek parçalar",
       "Tüm marka ve modeller",
@@ -141,67 +141,7 @@ const services = [
     title: "Tesisat Tamiri",
     description:
       "Su ve ısıtma tesisatı sorunlarınız için 7/24 profesyonel hizmet. Kaçak tamiri, tıkanıklık açma, boru değişimi ve tüm tesisat işleri.",
-    image: "/images/services/tesisat-tamiri.jpg",
-    features: [
-      "Su kaçağı tamiri",
-      "Tıkanıklık açma",
-      "Boru değişimi",
-      "Isıtma tesisatı",
-      "7/24 acil müdahale",
-      "Gizli kaçak tespiti",
-    ],
-  },
-  {
-    id: "panel-radyator-degisimi",
-    title: "Panel Radyatör Değişimi",
-    description:
-      "Eski ve verimsiz radyatörlerinizi modern panel radyatörlerle değiştirerek ısıtma verimliliğinizi artırın. Tüm marka ve modellerde profesyonel kurulum hizmeti.",
-    image: "/images/services/panel-radyator.jpg",
-    features: [
-      "Eski radyatör sökümü",
-      "Panel radyatör montajı",
-      "Boru bağlantıları",
-      "Sistem test edilmesi",
-      "Tüm marka ve modeller",
-      "Garantili hizmet",
-    ],
-  },
-  {
-    id: "radyator-vana-degisimi",
-    title: "Radyatör Vana Değişimi",
-    description:
-      "Arızalı radyatör vanalarınızı değiştirerek ısıtma sisteminizin kontrolünü iyileştirin. Termostatik, manuel ve otomatik vana seçenekleri.",
-    image: "/images/services/radyator-vana.jpg",
-    features: [
-      "Termostatik vana montajı",
-      "Manuel vana değişimi",
-      "Otomatik vana kurulumu",
-      "Enerji tasarrufu",
-      "Sıcaklık kontrolü",
-      "Uzun ömürlü çözümler",
-    ],
-  },
-  {
-    id: "kombi-yedek-parca",
-    title: "Kombi Yedek Parça ve Aksesuar",
-    description:
-      "Kombilerinizin uzun ömürlü çalışması için orijinal yedek parçalar ve kaliteli aksesuarlar. Tüm marka ve modeller için geniş ürün yelpazesi.",
-    image: "/images/services/kombi-yedek-parca.jpg",
-    features: [
-      "Orijinal yedek parçalar",
-      "Tüm marka ve modeller",
-      "Hızlı parça temini",
-      "Uygun fiyatlar",
-      "Garantili ürünler",
-      "Profesyonel montaj",
-    ],
-  },
-  {
-    id: "tesisat-tamiri",
-    title: "Tesisat Tamiri",
-    description:
-      "Su ve ısıtma tesisatı sorunlarınız için 7/24 profesyonel hizmet. Kaçak tamiri, tıkanıklık açma, boru değişimi ve tüm tesisat işleri.",
-    image: "/images/services/tesisat-tamiri.jpg",
+    image: "/images/services/tesisat-tamiri.png",
     features: [
       "Su kaçağı tamiri",
       "Tıkanıklık açma",
@@ -246,6 +186,7 @@ export default function ServicesPage() {
                       src={service.image}
                       alt={service.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                       className="object-cover"
                     />
                   </Link>

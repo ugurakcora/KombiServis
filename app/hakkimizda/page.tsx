@@ -30,6 +30,7 @@ export default function AboutPage() {
                 src="/images/about/company.jpg"
                 alt="Mert Teknik Ekibi"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
                 className="object-cover"
               />
             </div>

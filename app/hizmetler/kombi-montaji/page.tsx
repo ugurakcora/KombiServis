@@ -45,9 +45,10 @@ const KombiMontaji = () => {
                 <div className="bg-white p-2 rounded-lg shadow-lg">
                   <div className="relative h-80 md:h-80">
                     <Image
-                      src="/images/services/kombi-montaj.jpg"
+                      src="/images/services/kombi-montaj.png"
                       alt="Kombi montajı yapan teknisyen"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"
                       className="object-cover rounded"
                     />
                   </div>

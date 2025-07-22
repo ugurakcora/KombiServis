@@ -106,6 +106,7 @@ export default async function BlogPost({
                   src={post.image}
                   alt={post.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, 800px"
                   className="object-cover rounded-lg"
                 />
               </div>
