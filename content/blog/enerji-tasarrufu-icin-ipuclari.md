@@ -1,10 +1,10 @@
 ---
 title: "Kombi Kullanımında Enerji Tasarrufu İçin 10 İpucu"
 date: "3 Ekim 2023"
-author: "Ayşe Demir"
+author: "Ahmet Mert Kurban"
 category: "Enerji Tasarrufu"
 excerpt: "Kombilerinizi daha verimli kullanarak enerji tasarrufu sağlayabilir ve faturalarınızı düşürebilirsiniz."
-image: "/images/blog/enerji-tasarrufu.jpg"
+image: "/images/blog/kombi-kullaniminda-enerji-tasarrufu-icin10-ipucu.png"
 ---
 
 # Kombi Kullanımında Enerji Tasarrufu İçin 10 İpucu

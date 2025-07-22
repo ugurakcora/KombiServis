@@ -1,10 +1,10 @@
 ---
 title: "Kış Gelmeden Kombi Bakımı Neden Önemlidir?"
 date: "15 Eylül 2023"
-author: "Mehmet Yılmaz"
+author: "Ahmet Mert Kurban"
 category: "Kombi Bakımı"
 excerpt: "Kış mevsimi gelmeden önce kombilerinizin bakımını yaptırmak neden önemlidir ve ne gibi faydalar sağlar?"
-image: "/images/blog/kombi-bakimi.jpg"
+image: "/images/blog/kis-gelmeden-kombi-bakimi-neden-onemlidir.png"
 ---
 
 # Kış Gelmeden Kombi Bakımı Neden Önemlidir?

@@ -135,38 +135,6 @@ export default function BlogPage() {
               </p>
             </div>
           )}
-
-          <div className="mt-12 text-center">
-            <p className="text-gray-600 mb-4">
-              Daha fazla faydalı bilgi ve ipucu için bizi takip edin.
-            </p>
-            <div className="flex justify-center space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700"
-              >
-                Instagram
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700"
-              >
-                Twitter
-              </a>
-            </div>
-          </div>
         </div>
       </main>
       <Footer />
