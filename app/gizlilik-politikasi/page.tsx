@@ -82,11 +82,57 @@ const GizlilikPolitikasi = () => {
               güvenli olmadığını unutmayın.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-4">6. Çerezler</h2>
-            <p>
-              Web sitemiz, deneyiminizi geliştirmek için çerezler
-              kullanmaktadır. Çerezleri tarayıcı ayarlarınızdan kontrol edebilir
-              veya devre dışı bırakabilirsiniz.
+            <h2 className="text-2xl font-semibold mt-8 mb-4">
+              6. Çerezler (Cookies)
+            </h2>
+            <p className="mb-4">
+              Web sitemizde deneyiminizi geliştirmek ve hizmetlerimizi analiz
+              etmek için çeşitli çerezler kullanıyoruz.
+            </p>
+
+            <h3 className="text-lg font-medium mb-3">6.1 Çerez Türleri:</h3>
+            <ul className="list-disc pl-6 mb-4">
+              <li>
+                <strong>Gerekli Çerezler:</strong> Sitenin temel işlevleri için
+                zorunlu çerezlerdir. İletişim formu ve güvenlik için gereklidir.
+              </li>
+              <li>
+                <strong>Analiz Çerezleri (Google Analytics):</strong> Ziyaretçi
+                istatistikleri, hangi sayfaların görüntülendiği, hangi cihaz ve
+                lokasyonlardan erişim sağlandığı bilgilerini toplar.
+              </li>
+            </ul>
+
+            <h3 className="text-lg font-medium mb-3">6.2 Google Analytics:</h3>
+            <p className="mb-4">
+              Sitemizdeki ziyaretçi davranışlarını anlayabilmek için Google
+              Analytics kullanıyoruz. Bu hizmet şu bilgileri toplar:
+            </p>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Sayfa görüntülemeleri ve ziyaret süreleri</li>
+              <li>Cihaz türü (masaüstü, mobil, tablet)</li>
+              <li>Coğrafi konum (şehir/ülke bazında)</li>
+              <li>Hangi sayfalarda ne kadar zaman geçirildiği</li>
+              <li>
+                Trafiğin geldiği kaynaklar (Google arama, sosyal medya vb.)
+              </li>
+            </ul>
+
+            <h3 className="text-lg font-medium mb-3">6.3 Çerez Kontrolü:</h3>
+            <p className="mb-4">
+              Çerez tercihlerinizi sitemiz üzerindeki çerez banner'ından
+              yönetebilirsiniz. Ayrıca:
+            </p>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Tarayıcı ayarlarınızdan tüm çerezleri engelleyebilirsiniz</li>
+              <li>Sadece belirli çerez türlerini kabul edebilirsiniz</li>
+              <li>İstediğiniz zaman tercihlerinizi değiştirebilirsiniz</li>
+            </ul>
+
+            <p className="mb-4 p-3 bg-blue-50 border-l-4 border-blue-500 text-sm">
+              <strong>Önemli:</strong> Analiz çerezlerini reddetseniz bile
+              sitenin tüm özellikleri normal çalışacaktır. Bu çerezler sadece
+              size daha iyi hizmet verebilmemiz için kullanılır.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">7. Haklarınız</h2>
@@ -115,7 +161,7 @@ const GizlilikPolitikasi = () => {
               lütfen aşağıdaki iletişim bilgilerinden bize ulaşın:
             </p>
             <p className="mb-6">
-              E-posta: info@kombiservisiordu.com
+              E-posta: ordumertteknik@gmail.com
               <br />
               Telefon: 0553 010 50 40
               <br />

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <g transform="translate(60, 60) scale(0.77)">
-    <path d="M100 100 L200 100 L200 120 L160 120 L160 400 L140 400 L140 120 L100 120 Z" />
-    <path d="M240 100 L400 100 L400 120 L330 120 L330 400 L310 400 L310 120 L240 120 Z" />
-    <path d="M230 180 L310 180 L310 200 L230 200 Z" />
-    <path d="M280 180 L280 350 L300 350 L300 400 L260 400 L260 180 Z" />
-  </g>
-</svg> 

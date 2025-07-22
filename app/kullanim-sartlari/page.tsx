@@ -132,7 +132,7 @@ const KullanimSartlari = () => {
               lütfen aşağıdaki iletişim bilgilerinden bize ulaşın:
             </p>
             <p className="mb-6">
-              E-posta: info@kombiservisiordu.com
+              E-posta: ordumertteknik@gmail.com
               <br />
               Telefon: 0553 010 50 40
               <br />

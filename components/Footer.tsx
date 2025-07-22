@@ -229,10 +229,10 @@ const Footer = () => {
                   />
                 </svg>
                 <a
-                  href="mailto:info@kombiservisiordu.com"
+                  href="mailto:ordumertteknik@gmail.com"
                   className="text-gray-400 hover:text-white"
                 >
-                  info@kombiservisiordu.com
+                  ordumertteknik@gmail.com
                 </a>
               </li>
             </ul>

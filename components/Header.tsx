@@ -19,7 +19,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/logo-saydam.png"
+                src="/images/logo.png"
                 alt="Mert Teknik - Kombi ve Tesisat Teknik Servisi"
                 width={200}
                 height={120}

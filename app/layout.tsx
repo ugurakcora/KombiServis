@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieConsent from "../components/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Mert Teknik - Kombi ve Tesisat Teknik Servisi",
@@ -10,14 +11,28 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico" },
-      { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: [{ url: "/favicon/apple-touch-icon.png" }],
+    apple: [
+      {
+        url: "/favicon/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
     other: [
       {
-        rel: "mask-icon",
-        url: "/favicon/safari-pinned-tab.svg",
-        color: "#2563eb",
+        rel: "android-chrome",
+        url: "/favicon/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        rel: "android-chrome",
+        url: "/favicon/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
       },
     ],
   },
@@ -42,7 +57,10 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#2563eb" />
       </head>
-      <body className="min-h-screen bg-gray-50">{children}</body>
+      <body className="min-h-screen bg-gray-50">
+        {children}
+        <CookieConsent />
+      </body>
     </html>
   );
 }

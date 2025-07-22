@@ -115,10 +115,10 @@ export default function ContactPage() {
                       <h3 className="font-medium">E-posta</h3>
                       <p className="text-gray-600">
                         <a
-                          href="mailto:info@kombiservisiordu.com"
+                          href="mailto:ordumertteknik@gmail.com"
                           className="hover:text-primary-600"
                         >
-                          info@kombiservisiordu.com
+                          ordumertteknik@gmail.com
                         </a>
                       </p>
                     </div>
